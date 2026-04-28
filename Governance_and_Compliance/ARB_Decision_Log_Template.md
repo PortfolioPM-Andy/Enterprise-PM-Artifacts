@@ -1,0 +1,24 @@
+# Architecture Review Board (ARB) - Decision Log Template
+
+**Project Name:** [Insert Project]
+**Review Date:** [YYYY-MM-DD]
+**Presenting Team:** [Insert Team/Vendor]
+
+## 1. Executive Summary of Proposed Architecture
+[Briefly describe the system, software, or infrastructure being proposed and the core business problem it solves.]
+
+## 2. Governance Alignment
+* **Security & Compliance Check:** [Pass/Fail/Conditional]
+* **Integration with Existing Systems:** [Description of APIs/Middleware]
+* **Disaster Recovery (DR) Readiness:** [RTO/RPO SLAs defined?]
+
+## 3. Board Decision
+* [ ] **Approved** (Proceed to deployment planning)
+* [ ] **Approved with Conditions** (See action items below)
+* [ ] **Rejected** (Requires major architectural revision)
+
+## 4. Required Action Items / Conditions
+| Action Item | Owner | Target Date | Status |
+| :--- | :--- | :--- | :--- |
+| Enforce specific data encryption standard | InfoSec Lead | [Date] | Open |
+| Revise cloud hosting redundancy plan | Cloud Architect | [Date] | Open |
